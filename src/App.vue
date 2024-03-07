@@ -51,7 +51,7 @@ useHead({
           </li>
         </ul>
         <button
-          class="rounded-full bg-neutral-dark-gray-blue py-4 text-lg text-white"
+          class="relative z-[1] overflow-clip rounded-full bg-neutral-dark-gray-blue py-4 text-lg text-white transition ease-in-out before:absolute before:inset-0 before:z-[-1] before:grid before:place-content-center before:bg-gradient-to-b before:from-gradient-light-slate-blue before:to-gradient-light-royal-blue before:opacity-0 before:transition-opacity before:content-[''] before:hover:opacity-100"
         >
           Continue
         </button>
