@@ -18,12 +18,11 @@ defineProps({
   <div
     :class="
       clsx('flex gap-3 rounded-lg p-4', {
-        ['bg-primary-light-red/10 text-primary-light-red']: theme === 'red',
-        ['bg-primary-orangey-yellow/10 text-primary-orangey-yellow']:
+        ['bg-primary-light-red/5 text-primary-light-red']: theme === 'red',
+        ['bg-primary-orangey-yellow/5 text-primary-orangey-yellow']:
           theme === 'yellow',
-        ['bg-primary-green-teal/10 text-primary-green-teal']: theme === 'teal',
-        ['bg-primary-cobalt-blue/10 text-primary-cobalt-blue']:
-          theme === 'blue',
+        ['bg-primary-green-teal/5 text-primary-green-teal']: theme === 'teal',
+        ['bg-primary-cobalt-blue/5 text-primary-cobalt-blue']: theme === 'blue',
       })
     "
   >
