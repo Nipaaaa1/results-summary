@@ -11,7 +11,7 @@ useHead({
     {
       rel: "icon",
       type: "image/png",
-      href: "/src/assets/images/favicon-32x32.png",
+      href: "/results-summary/src/assets/images/favicon-32x32.png",
     },
   ],
 });
