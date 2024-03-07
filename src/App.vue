@@ -6,7 +6,7 @@ import Category from "./components/Category.vue";
 const themes = ["red", "yellow", "teal", "blue"];
 
 useHead({
-  title: "vueTest",
+  title: "Results Summary Component",
   link: [
     {
       rel: "icon",
